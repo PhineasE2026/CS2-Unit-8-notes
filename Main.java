@@ -20,5 +20,18 @@ public class Main {
       seatingChart[2][3] = "Zoie";
       seatingChart[1][3] = "Alex";
       seatingChart[0][3] = "Maia";
+
+      //initializer list
+      //altenrate way to initialize array
+      //when you know what values go where
+      //inner Curly brackets hold each row
+      int[][] minefield = {{7, -20, 0},{0, 50, -15},{-10, 12, 20}};
+
+      // blarg
+      // access a value with the double index operator
+      // ar1ray[row[rw]row[rworw[row[rowrwor[wrow[row[r[wor[wr[rowr[wrpw[]rpw[rpow[row[row[rw[row[row[row[rw[row[row[row[row[row[row][col]]]]]]]]]]]]]]]]]]]]]]]]'
+      System.out.println("You earned " + minefield[2][0] + " points");
+      System.out.println("You earned " + minefield[1][1] + " points");
+
    }
 }
